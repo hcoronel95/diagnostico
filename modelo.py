@@ -15,8 +15,8 @@ df = pd.read_csv(ruta_archivo, delimiter=';')
 
 # Añadir un título y una descripción al inicio del formulario
 st.title('Diagnóstico Inteligente: ')
-st.markdown('\n\nEsta aplicación te permite la clasificar la mejor opcion segun el tipo de establecimiento según los datos de ingreso de los pacientes en los establecimientos de salud. Solo tienes que introducir los valores de las características categóricas y pulsar el botón "Diagnosticar". El modelo usa el algoritmo Arbol de deciciones, que se basa en la probabilidad condicional de cada clase.\n')
-
+st.markdown('nEsta aplicación te permite la clasificar la mejor opcion segun el Tipo de establecimiento según los datos de ingreso de los pacientes en los establecimientos de salud.')
+('Solo tienes que introducir los valores de las características categóricas y pulsar el botón "Diagnosticar". El modelo usa el algoritmo Arbol de deciciones, que se basa en la probabilidad condicional de cada clase.')
 # Añadir una imagen o un logo relacionado con el tema o el proyecto
 st.image('https://www.salud.gob.ec/wp-content/uploads/2017/03/logo-gabo-01.jpg', width=600)
 
