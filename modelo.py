@@ -4,13 +4,13 @@ import pandas as pd
 import pickle
 
 # Cargar el archivo .pkl que contiene el modelo entrenado
-pkl_filename = "diagnostico/Modelo_Arbol_de_Decisiones.pkl"
+pkl_filename = "./Modelo_Arbol_de_Decisiones.pkl"
 with open(pkl_filename, 'rb') as file:
     model = pickle.load(file)
 
 
 # Cargar el archivo local que contiene el dataset
-ruta_archivo = 'diagnostico/DATA/Data_Final_egresos_y_camillas.csv'
+ruta_archivo = './DATA/Data_Final_egresos_y_camillas.csv'
 df = pd.read_csv(ruta_archivo, delimiter=';')
 
 # Añadir un título y una descripción al inicio del formulario
